@@ -1,0 +1,18 @@
+name: "Beginner: Basic Reversing Problem"
+category: Reverse Engineering
+description: |
+  So many function calls... but are they that different?
+
+  By Khael (@malfuncti0nal on discord)
+author: malfuncti0nal
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{i_c4n_r3v!}
+files:
+  - baby-rev
+state: hidden

@@ -1,0 +1,20 @@
+name: "Easy Mergers v0.1"
+category: Web
+description: |
+  Tired of getting your corporate mergers blocked by the FTC? Good news! Just give us your corporate information and let our unpaid interns do the work!
+
+  By Samintell (@samintell on discord)
+author: Samintell
+connection_info: http://guppy.utctf.live:8725
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{p0lluted_b4ckdoorz_and_m0r3}
+# remove the files key entirely if the challenge should contain no files
+files:
+  - merger.zip
+state: hidden

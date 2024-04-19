@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+  crypto-numbers-go-brrr:
+    build:
+      context: .
+      args: 
+        USER: "name"
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "7356:9000"
+    read_only: true

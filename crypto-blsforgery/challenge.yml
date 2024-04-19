@@ -1,0 +1,23 @@
+name: "Forgery"
+category: Cryptography
+description: |
+  "This is a forgery."
+  "I have no idea what you are talking about."
+  "DETAIN"
+
+  Note: this is both a crypto and rev chall
+
+  By Jeriah (@jyu on discord)
+author: Jeriah
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc betta.utctf.live 8634
+flags:
+  - utflag{glory_to_arstotzka_and_cryptorev}
+files:
+  - src/forgery
+state: hidden

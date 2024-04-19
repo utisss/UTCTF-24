@@ -1,0 +1,16 @@
+name: "Study Music"
+category: Cryptography
+description: |
+  I listen to this while studying for my exams. 
+  https://youtu.be/1Cbaa6dO2Yk
+  By Danny (Danny on Discord).
+author: Danny
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{l0v3th4tdanc3}
+state: hidden

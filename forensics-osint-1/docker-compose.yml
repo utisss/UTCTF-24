@@ -1,0 +1,9 @@
+version: "2.2"
+services:
+  osint:
+    cpus: 1
+    mem_limit: 512m
+    build:
+      context: .
+    ports:
+      - "8756:80"

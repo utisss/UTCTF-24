@@ -1,0 +1,19 @@
+name: "simple signature"
+category: Cryptography
+description: |
+  The s in rsa stands for secure.
+
+  By alex (@kyrili : not the isss officer - someone ya'll don't know)
+  
+  Contact jocelyn (@jocelyn3270 on discord)
+author: jocelyn
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc betta.utctf.live 4374
+flags:
+  - utflag{a1m05t_t3xtb00k_3x3rc153}
+state: hidden

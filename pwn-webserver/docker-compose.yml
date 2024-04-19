@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+  pwn-webserver:
+    build:
+      context: .
+      args:
+        FLAG: "utflag{an_educational_experience}"
+        USER: "webserver"
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "5848:9000"
+    read_only: true

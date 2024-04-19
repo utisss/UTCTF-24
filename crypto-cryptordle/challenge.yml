@@ -1,0 +1,17 @@
+name: "Cryptordle"
+category: Cryptography
+description: |
+  Just guess the word in 6 tries. What do you mean it's hard?
+
+  By oops
+author: oops
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc betta.utctf.live 7496
+flags:
+  - utflag{sometimes_pure_guessing_is_the_strat}
+state: hidden

@@ -1,0 +1,19 @@
+name: "Contracts"
+category: Forensics
+description: |
+  Magical contracts are hard. Occasionally, you sign with the flag instead of your name. It happens.
+
+  By Samintell (@samintell on discord)
+author: Samintell
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{s1mple_w1z4rding_mist4k3s}
+# remove the files key entirely if the challenge should contain no files
+files:
+  - contract.pdf
+state: hidden

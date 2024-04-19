@@ -1,0 +1,17 @@
+name: "Gibberish"
+category: Forensics
+description: |
+  Help! I'm trying to spy on my lover but they're not typing in any language I'm familiar with!
+
+  By mzone (@mzone on discord)
+author: mzone
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{learning_stenography_on_a_qwerty_keyboard_is_quite_difficult}
+files:
+  - keyboard.pcapng
+state: hidden

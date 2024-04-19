@@ -1,0 +1,18 @@
+name: "OSINT 2"
+category: Forensics
+description: |
+  Can you find where the person you identified in the first challenge lives?
+  Flag format is City,State,Zip. For example, if they live at UT Austin submit Austin,TX,78712
+
+  By mzone (@mzone on discord)
+author: mzone
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - Raton,NM,87740
+  - utflag{Raton,NM,87740}
+state: hidden

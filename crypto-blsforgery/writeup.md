@@ -1,0 +1,1 @@
+This is a rogue-key attack in BLS aggregate signatures. See https://www.cs.utexas.edu/~dwu4/courses/sp24/static/BLS.pdf page 6. Solver is in src folder.

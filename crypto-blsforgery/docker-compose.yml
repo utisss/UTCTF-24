@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+  crypto-blsrevcrypto:
+    build:
+      context: .
+      args: 
+        FLAG: "utflag{glory_to_arstotzka_and_cryptorev}"
+        USER: "forgery"
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "8634:9000"
+    read_only: true

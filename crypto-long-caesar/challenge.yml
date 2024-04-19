@@ -1,0 +1,22 @@
+name: "Beginner: Anti-dcode.fr"
+category: Cryptography
+description: |
+  I've heard that everyone just uses dcode.fr to solve all of their crypto problems. Shameful, really. 
+
+  This is really just a basic Caesar cipher, with a *few* extra random characters on either side of the flag. Dcode can handle that, right? >:)
+
+  The '{', '}', and '_' characters aren't part of the Caesar cipher, just a-z. As a reminder, all flags start with "utflag{". 
+
+  By Khael (Malfuncti0nal on Discord).
+author: Malfuncti0nal
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{rip_dcode}
+files:
+  - LoooongCaesarCipher.txt
+state: hidden

@@ -1,0 +1,9 @@
+version: '2.4'
+
+services:
+  ctf-app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8138:80"

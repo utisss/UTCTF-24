@@ -1,0 +1,13 @@
+version: "2.4"
+services:
+  pwn-cave-level-2:
+    build:
+      context: .
+      args: 
+        FLAG: "utflag{the_light_at_the_end_of_the_tunnel}"
+        USER: "game"
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "7252:9000"
+    read_only: true

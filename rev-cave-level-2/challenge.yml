@@ -1,0 +1,20 @@
+name: "In The Dark"
+category: Reverse Engineering
+description: |
+  I decided to write my own platformer game but haven't gotten around to implementing the graphics module yet.
+
+  By Jonathan (@JBYoshi on Discord)
+author: Jonathan
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc puffer.utctf.live 7252
+flags:
+  - utflag{the_light_at_the_end_of_the_tunnel}
+# remove the files key entirely if the challenge should contain no files
+files:
+  - build/game
+state: hidden

@@ -1,0 +1,17 @@
+name: "A Very Professional Website"
+category: Forensics
+description: |
+  Web dev skills go brrr
+
+  By Caleb (@eden.caleb.a on discord)
+author: Caleb
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://puffer.utctf.live:8549
+flags:
+  - utflag{gitR3fl0g}
+state: hidden

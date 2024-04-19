@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Schrödinger's Web Tool</title>
+    <link rel="stylesheet" href="">
+</head>
+<body>
+    <h1>Upload a ZIP file here, and I will show you what is inside</h1>
+    <form method="POST" enctype="multipart/form-data">
+        {{form.hidden_tag()}}
+        {{form.file()}}
+        {{form.submit()}}
+    </form>
+</body>
+</html>

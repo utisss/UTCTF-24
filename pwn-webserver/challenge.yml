@@ -1,0 +1,17 @@
+name: "Handwritten Webserver"
+category: Binary Exploitation
+description: |
+  I wrote a simple HTTP file server in C... how badly did I mess it up?
+
+  By Alex (@.alex_._ on discord)
+author: Alex
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://guppy.utctf.live:5848
+flags:
+  - utflag{an_educational_experience}
+state: hidden

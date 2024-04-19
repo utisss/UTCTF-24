@@ -1,0 +1,20 @@
+name: "bits and pieces"
+category: Cryptography
+description: |
+  I really really like RSA, so implemented it myself <3.
+
+  A two parter.
+
+  By jocelyn (@jocelyn3270 on discord)
+author: jocelyn
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{oh_no_it_didnt_work_</3_i_guess_i_can_just_use_standard_libraries_in_the_future}
+files:
+  - vals.txt
+state: hidden

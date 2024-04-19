@@ -1,0 +1,17 @@
+name: "OSINT 1"
+category: Forensics
+description: |
+  It seems like companies have document leaks all the time nowadays. I wonder if this company has any.
+
+  By mzone (@mzone on discord)
+author: mzone
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://puffer.utctf.live:8756
+flags:
+  - utflag{discord_is_my_favorite_document_leaking_service}
+state: hidden

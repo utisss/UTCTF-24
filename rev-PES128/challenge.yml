@@ -1,0 +1,20 @@
+name: "PES-128"
+category: Reverse Engineering
+description: |
+  Introducing the PES-128 cipher! It's super high throughput and notable nonrequirement of keys
+  makes it a worthy contender for NIST standardization as a secure PRF.
+
+  By Jeriah (@jyu on discord)
+author: Jeriah
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{i_got_the_need_for_amdahls_law}
+files:
+  - flag.enc
+  - PES
+state: hidden

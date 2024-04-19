@@ -1,0 +1,19 @@
+name: "CCV"
+category: Misc
+description: |
+  I've got some credit cards but I don't which ones are valid. Where did I get them? Uh, that's not important.
+
+  Oh, you'll probably need this: dae55498c432545826fb153885bcb06b
+
+  By mzone (@mzone on discord)
+author: mzone
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc puffer.utctf.live 8625
+flags:
+  - utflag{hope_none_of_those_were_yours_lol}
+state: hidden

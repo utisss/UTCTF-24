@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  ccv:
+    build:
+      context: .
+    ports:
+      - "8625:9000"
+    read_only: true

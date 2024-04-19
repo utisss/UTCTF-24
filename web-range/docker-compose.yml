@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+  web-range:
+    build:
+      context: .
+      args: 
+        USER: "range"
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "7884:3000"
+    read_only: false

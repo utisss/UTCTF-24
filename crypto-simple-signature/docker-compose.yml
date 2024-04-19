@@ -1,0 +1,12 @@
+version: "2.4"
+services:
+  crypto-simple-signature:
+    build:
+      context: .
+      args: 
+        USER: "name"
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "4374:9000"
+    read_only: true

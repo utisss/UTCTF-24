@@ -1,0 +1,19 @@
+name: "numbers go brrr 2"
+category: Cryptography
+description: |
+  A spiritual successor the first. 
+
+  By jocelyn (@jocelyn3270 on discord)
+author: jocelyn
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc betta.utctf.live 2435
+flags:
+  - utflag{ok_you_are_either_really_lucky_or_you_solved_it_as_intended_yay}
+files:
+  - src/main.py
+state: hidden

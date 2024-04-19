@@ -1,0 +1,18 @@
+name: "Accelerated Hell"
+category: Reverse Engineering
+description: |
+  Not all pain is gain.
+
+  By Jeriah (@jyu on discord)
+author: Jeriah
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+flags:
+  - utflag{wow_you_managed_to_figure_out_cuda_AND_rust?!}
+files:
+  - main
+state: hidden

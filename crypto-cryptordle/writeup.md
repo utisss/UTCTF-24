@@ -1,0 +1,1 @@
+Start with a random guess (let's say `aaaaa`), and let's say it has response `r1`. For each letter, change it by 1 (e.g. `baaaa`), and let the result be `r2`. `r1-r2 = r1 / (first letter of guess - first letter of answer)`, so you can solve for the letter (assuming no 0s in the response.) Do this for all 5 letters.

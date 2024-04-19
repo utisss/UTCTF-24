@@ -1,0 +1,17 @@
+name: "Home on the Range"
+category: Web
+description: |
+  I wrote a custom HTTP server to play with obscure HTTP headers.
+
+  By Jonathan (@JBYoshi on discord)
+author: Jonathan
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://guppy.utctf.live:7884
+flags:
+  - utflag{do_u_want_a_piece_of_me}
+state: hidden

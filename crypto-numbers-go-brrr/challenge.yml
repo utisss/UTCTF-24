@@ -1,0 +1,19 @@
+name: "numbers go brrr"
+category: Cryptography
+description: |
+  I wrote an amazing encryption service. It is definitely flawless, so I'll encrypt the flag and give it to you.
+
+  By jocelyn (@jocelyn3270 on discord)
+author: jocelyn
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: nc betta.utctf.live 7356
+flags:
+  - utflag{deep_seated_and_recurring_self-doubts}
+files:
+  - src/main.py
+state: hidden

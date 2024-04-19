@@ -1,0 +1,10 @@
+version: "2.4"
+services:
+  web-schrodinger:
+    build:
+      context: .
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "5422:9000"
+    read_only: false

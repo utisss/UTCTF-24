@@ -1,0 +1,17 @@
+name: "Beginner: Off-Brand Cookie Clicker"
+category: Web
+description: |
+  I tried to make my own version of cookie clicker, without all of the extra fluff. Can you beat my highscore?
+
+  By Khael (@malfuncti0nal on discord)
+author: malfuncti0nal
+value: 0
+type: dynamic
+extra:
+  initial: 1000
+  decay: 300
+  minimum: 100
+connection_info: http://betta.utctf.live:8138
+flags:
+  - utflag{y0u_cl1ck_pr3tty_f4st}
+state: hidden

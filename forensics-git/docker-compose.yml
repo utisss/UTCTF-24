@@ -1,0 +1,11 @@
+version: "2.4"
+services:
+  forensics-git:
+    build:
+      context: .
+    cpus: .1
+    mem_limit: 150M
+    ports:
+      - "8549:80"
+    read_only: true
+    tmpfs: /var/cache/nginx
